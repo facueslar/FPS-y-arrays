@@ -13,12 +13,12 @@ public class ScoreCounter : MonoBehaviour
         txtScore.text = "0";
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Contacto");
         AlimentoScript alimento;
         alimento = collision.gameObject.GetComponent<AlimentoScript>();
         score += alimento.valorAlimentario;
         txtScore.text = score.ToString();
-    }
+    }*/
 }

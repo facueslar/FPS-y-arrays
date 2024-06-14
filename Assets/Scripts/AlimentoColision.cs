@@ -8,7 +8,6 @@ public class AlimentoColision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Piso")
         {
-            Destroy(gameObject);
         }
     }
 }
